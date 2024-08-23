@@ -16,7 +16,9 @@ const About = () => {
       </div>
       <div className='w-[35%] relative px-[32px] py-[24px] ml-auto self-start '>
         <div className='absolute top-[40px] w-[160px] h-[160px] bg-[#FFBB04] rounded-xl'></div>
-        <div className="absolute top-[80px] left-[60px] w-[320px] h-[240px] bg-[url('header_bg_img.png')] bg-cover bg-center rounded-xl z-10"></div>
+        <div className="absolute top-[80px] left-[60px] w-[320px] h-[240px]  rounded-xl z-10">
+          <img src='header_img.png' alt='img' className='rounded-xl object-fit overflow-hidden w-full h-full'/>
+        </div>
         <div className='absolute top-[120px] left-[160px] w-[320px] h-[260px] bg-[#014828] rounded-xl z-5'></div>
       </div>
     </div>
