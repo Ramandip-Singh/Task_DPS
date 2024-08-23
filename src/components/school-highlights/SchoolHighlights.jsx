@@ -10,7 +10,7 @@ const SchoolHighlights = () => {
                 <IoIosArrowForward size={20} />
             </button>
         </div>
-        <div className='flex gap-6 w-[80%] lg:w-[70%] xl:w-[60%] h-[80%] self-center' style={{ backgroundColor: 'rgba(255, 187, 4, 0.2)' }}>
+        <div className='flex gap-6 w-[80%]  h-[80%] self-center' style={{ backgroundColor: 'rgba(255, 187, 4, 0.2)' }}>
         <div className='flex flex-col gap-4'>
     <div className='flex flex-row gap-4'>
         <div className='w-[600px] h-[205px] rounded-xl overflow-hidden'>
@@ -30,7 +30,7 @@ const SchoolHighlights = () => {
     </div>
 </div>
            
-            <div className='w-[320px] h-[426px] rounded-xl overflow-hidden'>
+            <div className='w-[400px] h-[426px] rounded-xl overflow-hidden'>
                 <img src={'s3.png'} alt='s3' className='object-cover w-full h-full'/>
             </div>
            
