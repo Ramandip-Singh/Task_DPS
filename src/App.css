@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+li.react-multi-carousel-item  {
+    width:320px !important
+  }
+.carousel-custom-class  {
+    width:400px !important
+  }
+.vision-vertical{
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
