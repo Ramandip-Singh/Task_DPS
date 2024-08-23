@@ -1,4 +1,4 @@
-import React from 'react';
+
 import {keyData} from '../../../data/data'
 const KeyFacts = () => {
 
@@ -8,7 +8,7 @@ const KeyFacts = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-[#7F007F] to-[#670066] opacity-90"></div>
       <div className="absolute inset-0 z-10 w-full flex justify-around items-center gap-4 p-[32px]">
         <div className="w-[50%] flex justify-center ">
-            <div className='w-[60%] h-[90%] relative flex justify-center rounded-xl overflow-hidden'>
+            <div className='w-[60%] h-[600px] relative flex justify-center rounded-xl overflow-hidden'>
             <img src='whydps.jpeg' alt='dps-image' className='rounded-lg'/>
             <span className="block absolute top-[25px] text-[32px] text-white  font-['Kameron]">Why DPS?</span>
             </div>
