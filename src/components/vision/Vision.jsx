@@ -5,7 +5,7 @@ const Vision = () => {
     <div className='w-full h-[540px] flex flex-col gap-4 py-[32px]' style={{ backgroundColor: 'rgba(1, 72, 40, 0.15)' }}>
         <span className=" self-center block  text-[32px] font-bold font-['Kameron'] ">DPS- Where Education Meets Inspiration</span>
         <div className='w-full  flex flex-row gap-4 self-center justify-center'>
-            <div className="w-[15%] relative flex h-[400px]  bg-cover bg-center" style={{backgroundImage:url('vision1.png')}} >
+            <div className="w-[15%] relative flex h-[400px]  bg-cover bg-center" style={{backgroundImage: 'url(vision1.png)'}} >
                <div className="absolute inset-0 bg-gradient-to-b from-[#014828] to-[#014828] opacity-80"></div>
                <div className='z-10 w-[80%] flex justify-center mt-8 ps-[16px]'>
                   <p className='text balance text-white  '>We aim towards being a center of excellence in education by educating our privileged youth in the essence of enlightened leadership and citizenship.</p>
@@ -16,14 +16,14 @@ const Vision = () => {
                    </div>
                </div>
             </div>
-            <div className="w-[15%] flex  h-[400px]  bg-cover bg-center" style={{backgroundImage:url('vision2.png')}}>
+            <div className="w-[15%] flex  h-[400px]  bg-cover bg-center" style={{backgroundImage:'url(vision2.png)'}}>
                <div className='w-[20%] ms-auto'>
                    <div className='w-[40px] h-[120px] bg-[#014828] flex justify-center items-center'>
                       <span className ="text-white font-bold font-['Kameron]" style={{ writingMode: 'vertical-rl', transform: 'rotate(360deg)' }}>OUR VISION</span>
                    </div>
                </div>
             </div>
-            <div className="w-[15%] flex  h-[400px] bg-cover bg-center" style={{backgroundImage:url('vision3.png')}}>
+            <div className="w-[15%] flex  h-[400px] bg-cover bg-center" style={{backgroundImage:'url(vision3.png)'}}>
                <div className='w-[20%] ms-auto'>
                    <div className='w-[40px] h-[120px] bg-[#014828] flex justify-center items-center'>
                       <span className ="text-white font-bold font-['Kameron]" style={{ writingMode: 'vertical-rl', transform: 'rotate(360deg)' }}>OUR VISION</span>

@@ -4,7 +4,7 @@ const KeyFacts = () => {
 
 
   return (
-    <div className="relative w-full h-[720px] max-h-[920px] bg-cover bg-center " style={{backgroundImage:url('header_img.png')}}>
+    <div className="relative w-full h-[720px] max-h-[920px] bg-cover bg-center " style={{backgroundImage:'url(header_img.png)'}}>
       <div className="absolute inset-0 bg-gradient-to-b from-[#7F007F] to-[#670066] opacity-90"></div>
       <div className="absolute inset-0 z-10 w-full flex justify-around items-center gap-4 p-[32px]">
         <div className="w-[50%] flex justify-center ">

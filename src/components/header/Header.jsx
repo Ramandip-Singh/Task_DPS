@@ -3,7 +3,7 @@ import {categoryData} from '../../../data/data'
 const Header = () => {
 
   return (
-    <div className=" w-full  bg-cover bg-center h-[720px] relative " style={{backgroundImage:url('header_img.png')}}>
+    <div className=" w-full  bg-cover bg-center h-[720px] relative " style={{backgroundImage:'url(header_img.png)'}}>
         <div className="absolute inset-0 bg-gradient-to-b from-[#D9D9D9]/20 to-[#1D1D1D]/50"></div>
        <div className='h-[80px] w-[400px] ms-[16px] absolute top-[40px] left-[200px]'>
           <img src={'logo.png'} alt='logo' className='object-fit: cover'/>
