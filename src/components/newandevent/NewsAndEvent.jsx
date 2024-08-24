@@ -4,8 +4,8 @@ import {eventData} from '../../../data/data'
 const NewsAndEvent = () => {
   
   return (
-    <div className='w-full h-[500px] flex flex-row gap-4 p-[32px]'>
-        <div className='w-[40%] flex flex-col gap-2'>
+    <div className='w-full h-[500px] flex flex-row gap-2 p-[48px]'>
+        <div className='w-[35%] flex flex-col gap-2'>
               <span className="block text-[16px] font-['Kameron'] font-bold">Discover the Best Co-ed CBSE Schoo</span>
         <div className='w-[80%] rounded-l-lg'>
           <img src='360_tour.png' alt='360Img' className='object-cover h-full w-full'/>
