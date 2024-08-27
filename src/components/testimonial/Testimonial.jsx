@@ -13,16 +13,16 @@ const Testimonial = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 4,
+      items: 3,
       partialVisibilityGutter: 40,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 768 },
+      breakpoint: { max: 1024, min: 512 },
       items: 2,
       partialVisibilityGutter: 30,
     },
     mobile: {
-      breakpoint: { max: 768, min: 0 },
+      breakpoint: { max: 512, min: 0 },
       items: 1,
       partialVisibilityGutter: 30,
       infinite: true,
@@ -48,10 +48,11 @@ const Testimonial = () => {
   slidesToSlide={1}
   swipeable
   partialVisible={true}
+  
        >
           {testimonialData.map((item, index) => (
             <React.Fragment key={index}>
-               <TestimonialCard className='w-[360px] min-h-[280px]' data={item}/>
+               <TestimonialCard className='w-[400px] min-h-[280px]' data={item}/>
             </React.Fragment>
           
 
