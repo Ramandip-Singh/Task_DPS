@@ -5,9 +5,18 @@
 
 body {
   margin: 0;
-  display: flex;
+  padding: 0;
+  width: 100%;
   min-width: 320px;
-  overflow-x:hidden;
   min-height: 100vh;
+  overflow-x: hidden; 
+  box-sizing: border-box;
+}
 
+
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; 
 }
