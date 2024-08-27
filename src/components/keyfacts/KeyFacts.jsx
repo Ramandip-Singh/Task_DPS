@@ -15,11 +15,11 @@ const KeyFacts = () => {
         </div>
         <div className="w-[100%] md:w-[50%] flex flex-wrap justify-center gap-4 ">
           {keyData.map((item, index) => (
-            <div key={index} className="w-[40%] md:w-[40%] h-[140px] md:h-[140px] flex flex-col gap-2 justify-center items-center p-4 bg-white cursor-pointer rounded-xl overflow-hidden">
+            <div key={index} className="w-[40%] md:w-[45%] lg:w-[40%] h-[140px] md:h-[144px] lg:h-[140px] flex flex-col gap-1 justify-center items-center p-4 bg-white cursor-pointer rounded-xl overflow-hidden">
               <div className=" h-[24px] md:h-[40px] w-[24px] md:w-[40px] mb-2 ">
                 <img src={item.icon} alt="icon" className="w-full h-full object-cover fill-current text-[#FFBB04]" />
               </div>
-              <span className="block text-[12px] md:text-[16px] font-semibold text-center">{item.title}</span>
+              <span className="block text-[12px] md:text-[14px] lg:text-[16px] font-semibold text-center">{item.title}</span>
             </div>
           ))}
         </div>

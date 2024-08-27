@@ -3,7 +3,6 @@ export const TestimonialCard = ({data}) => {
   return (
     <div className="px-4 ">
       <div className="feedback-card relative p-5 bg-background2 rounded-xl py-12 text-left border-2 border-gray-50 shadow-lg shadow-zinc-400 bg-[#F9F9F9]">
-
         <img
           src={'quote.png'}
           className="w-[40px] h-[40px] absolute top-12 left-5"

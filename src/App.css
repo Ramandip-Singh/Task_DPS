@@ -4,11 +4,11 @@
 
 
 li.react-multi-carousel-item  {
-    width:400px !important
+    width:360px !important
   }
-.carousel-custom-class  {
+/* .carousel-custom-class  {
     width:400px !important
-  }
+  } */
 .vision-vertical{
   writing-mode: vertical-rl;
   transform: rotate(180deg);
